@@ -13,9 +13,9 @@ body {
   font-family: var(--font-sans), sans-serif;
   padding: var(--size-5);
   background-color: #b8d8b2;
-  /* Soft green */
   color: var(--color-gray-900);
   line-height: var(--leading-relaxed);
+  border-radius: 5%;
 }
 
 main {
@@ -40,12 +40,10 @@ img {
   line-height: var(--leading-relaxed);
   padding: var(--size-5);
   background-color: #f7ede2;
-  /* Light pink */
   border-radius: 5%;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   color: #362F2E;
-  /* Dark gray */
 }
 
 .poem__stanza {
@@ -58,8 +56,13 @@ img {
   padding: var(--size-3);
   font-size: var(--size-4);
   color: #7c7c7c;
-  /* Gray */
   background-color: #d7c3af;
-  /* Peach */
   border-radius: 55%;
+}
+
+.poem__author {
+  text-align: center;
+  font-style: bold;
+  color: var(--color-gray-600);
+  margin-top: var(--size-2);
 }
