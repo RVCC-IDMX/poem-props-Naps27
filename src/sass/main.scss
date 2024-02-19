@@ -1,3 +1,65 @@
 /* main */
 @use "./base/reset";
 @use "./pages/home";
+@import url('https://unpkg.com/open-props');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans), sans-serif;
+  padding: var(--size-5);
+  background-color: #b8d8b2;
+  /* Soft green */
+  color: var(--color-gray-900);
+  line-height: var(--leading-relaxed);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: var(--size-5);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.poem {
+  width: 100%;
+  max-width: 60ch;
+  margin: var(--size-5) auto;
+  line-height: var(--leading-relaxed);
+  padding: var(--size-5);
+  background-color: #f7ede2;
+  /* Light pink */
+  border-radius: 5%;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #362F2E;
+  /* Dark gray */
+}
+
+.poem__stanza {
+  margin-bottom: var(--size-5);
+}
+
+.page-footer {
+  text-align: center;
+  margin-top: var(--size-5);
+  padding: var(--size-3);
+  font-size: var(--size-4);
+  color: #7c7c7c;
+  /* Gray */
+  background-color: #d7c3af;
+  /* Peach */
+  border-radius: 55%;
+}
