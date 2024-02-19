@@ -5,21 +5,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A modern CSS page">
-  <meta name="generator" content="Eleventy v1.2" />
-  <title>IDMX 11ty Sass Starter</title>
+  <meta name="generator" content="Eleventy v1.2">
+  <title>The Snowdrop</title>
   <link rel="shortcut icon" href="images/favicon.png" type="image/png">
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
   <link rel="stylesheet" href="css/main.css">
-  <!-- the props -->
-  <link rel="stylesheet" href="https://unpkg.com/open-props" />
-  <!-- optional imports that use the props -->
-  <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/open-props">
+  <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css">
 </head>
 
-<body>
-  <h1>IDMX 11ty Sass Starter</h1>
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae sapiente corrupti, maxime eos, nostrum corporis
-    neque pariatur nam rem at mollitia delectus, debitis laboriosam sed quam hic dolore! Obcaecati, necessitatibus.</p>
+<body style="font-family: var(--font-sans); color: var(--gray-900);">
+  <header class="page-header" style="text-align: center; padding: var(--size-5);">
+    <img src="images/yoksel-zok-2eQH7CUAmJA-unsplash.jpg" alt="Snowdrop flowers" class="page-header__image"
+      style="max-width: 100%; height: auto; border-radius: var(--radius-full);">
+    <h1 class="page-header__title" style="margin-top: var(--size-4); font-size: var(--size-8);">The Snowdrop</h1>
+  </header>
+
+  <main style="padding: var(--size-5);">
+    <article class="poem" style="max-width: 800px; margin: auto; color: var(--color-blue-600);">
+      <p class="poem__stanza" style="line-height: var(--leading-normal);">
+        Many, many welcomes,<br>
+        February fair-maid,<br>
+        Ever as of old time,<br>
+        Solitary firstling,<br>
+        Coming in the cold time,<br>
+        Prophet of the gay time,<br>
+        Prophet of the May time,<br>
+        Prophet of the roses,<br>
+        Many, many welcomes,<br>
+        February fair-maid!
+      </p>
+    </article>
+
+  </main>
+
+  <footer class="page-footer" style="text-align: center; padding: var(--size-5); font-size: var(--size-4);">
+    <p class="page-footer__source">Photo by <a href="https://unsplash.com/@yoksel">Yoksel Zok</a> on Unsplash
+    </p>
+    <p class="page-footer__credits">&copy; Andrew Napoleone</p>
+  </footer>
   <script src="js/index.js"></script>
 </body>
 
